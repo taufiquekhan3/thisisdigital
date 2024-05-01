@@ -1,0 +1,547 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+#main #heading {
+  display: flex;
+  height: 83vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav {
+  height: 100px;
+  width: 100%;
+  /* position: fixed;
+  z-index: 999; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5vw;
+}
+
+#part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px
+}
+
+#part2 a {
+  text-decoration: none;
+  color: #222;
+}
+
+#part2 a:nth-last-child(1) {
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: 1px solid #222;
+}
+
+#part2 a:nth-last-child(1) {
+  padding: 5px 15px;
+  border-radius: 50px;
+  border: 1px solid #222;
+}
+
+#part2 a:nth-last-child(1) {
+  padding: 5px 15px;
+  border-radius: 50px;
+  position: relative;
+  border: 1px solid #222;
+  overflow: hidden;
+}
+
+#part2 a:nth-last-child(1) #green {
+  width: 100%;
+  height: 100%;
+  background-color: springgreen;
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  transition: left 0.5s ease;
+}
+
+#part2 a:nth-last-child(1) h4 {
+  position: relative;
+  z-index: 99;
+}
+
+#part2 a:nth-last-child(1):hover #green {
+  left: 0;
+}
+
+#main #heading h1 {
+  font-size: 5.1vw;
+  width: 50%;
+  text-align: center;
+  font-weight: 100;
+  text-transform: capitalize;
+}
+
+#main #heading h1::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 16px;
+  background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+  top: 39%;
+  left: 50%;
+  background-size: cover;
+  transform: translate(-50%, 0);
+}
+
+#main #img1 {
+  height: 400px;
+  width: 290px;
+  position: absolute;
+  left: 4%;
+  top: 24%;
+}
+
+#main #img2 {
+  height: 210px;
+  width: 240px;
+  position: absolute;
+  right: 27%;
+  top: 10vw;
+}
+
+#main #img3 {
+  height: 250px;
+  width: 250px;
+  position: absolute;
+  right: 9%;
+  top: 33vw;
+}
+
+#main img {
+  transition: margin 0.4s ease;
+}
+
+#main img:hover {
+  margin-top: -20px;
+}
+
+
+
+
+#page2 {
+  position: relative;
+  height: 60vh;
+  width: 100%;
+  background-color: #000;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-direction: column;
+  margin-top: 3.5vw;
+  text-align: center;
+}
+
+#page2 h1 {
+  font-size: 2.45rem;
+  font-weight: 500;
+  width: 60%;
+  line-height: 1;
+}
+
+#page2 h5 {
+  font-size: 1.1rem;
+  margin-bottom: 1.25rem;
+  position: relative;
+}
+
+#page2 #about-us h4 {
+  margin-top: 3.8rem;
+  font-size: 1.3rem;
+}
+
+#page2 h1:after {
+  content: "";
+  position: absolute;
+  width: 12%;
+  height: 14%;
+  background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+  background-size: cover;
+  top: 47%;
+  left: 43%;
+}
+
+#page2 h5::before {
+  content: "";
+  position: absolute;
+  left: -5%;
+  top: 13%;
+  height: 13px;
+  width: 13px;
+  border-radius: 50%;
+  background-color: springgreen;
+}
+
+
+#string {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+svg {
+  position: relative;
+  z-index: 800;
+  /* background-color: rgb(35, 35, 37); */
+}
+
+#left1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#left1 #img1 {
+  width: 180px;
+  height: 400px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+#left1 #img2 {
+  width: 180px;
+  height: 250px;
+  background-size: cover;
+  object-fit: cover;
+}
+
+#left2 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#img-txt {
+  display: flex;
+  gap: 30px;
+  position: relative;
+  margin-top: 20px;
+}
+
+#left2 #img3 {
+  width: 300px;
+  height: 250px;
+  object-fit: cover;
+  background-size: cover;
+}
+
+#left2 #img4 {
+  width: 450px;
+  height: 500px;
+  object-fit: cover;
+  background-size: cover;
+}
+
+#right {
+  margin-top: 17%;
+  margin-left: 2%;
+}
+
+#right h1 {
+  font-size: 3.5rem;
+  margin-bottom: 6%;
+  position: relative;
+}
+
+#right h1::before {
+  content: "";
+  position: absolute;
+  width: 31%;
+  height: 10%;
+  top: 41%;
+  left: 21%;
+  background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+  background-size: cover;
+}
+
+#right p {
+  width: 70%;
+  line-height: 2;
+  margin-bottom: 15px;
+}
+
+#right h3,
+#right a h4 {
+  display: inline-block;
+  margin: 10px;
+}
+
+#right a {
+  text-decoration: none;
+  color: #000;
+}
+
+
+
+
+#footer {
+  height: 80vh;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  background-color: #000;
+}
+
+#upperpart {
+  padding: 10vw 10vw;
+  display: flex;
+  background-color: black;
+}
+
+#digitalheading,
+#explore,
+#learn,
+#imgaesfoooter,
+#findus {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+#explore,
+#findus,
+#learn {
+  margin-bottom: 5px;
+  line-height: 2;
+}
+
+#explore ul,
+#findus ul,
+#learn ul {
+  opacity: 0.8;
+  list-style-type: none;
+}
+
+#imagesfooter {
+  display: flex;
+  flex-direction: column;
+}
+
+#imagesfooter img:first-child {
+  width: 110px;
+  height: 50px;
+  background-color: #000;
+  margin-bottom: 20px;
+  background-size: contain;
+}
+
+#imagesfooter img:nth-child(2) {
+  width: 110px;
+  height: 90px;
+  margin-bottom: 20px;
+}
+
+#imagesfooter img:nth-child(3) {
+  width: 110px;
+  height: 40px;
+}
+
+#digitalheading {
+  position: relative;
+  font-size: 1.35rem;
+  line-height: 1;
+  width: 30%;
+  margin-top: 35px;
+  margin-right: 170px;
+
+}
+
+#digitalheading h1::after {
+  content: "";
+  position: absolute;
+  width: 53%;
+  height: 32%;
+  background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+  background-size: contain;
+  top: 20%;
+  left: -5%;
+}
+
+#upperpart2 {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 120px;
+  width: 30%;
+}
+
+#findus ul {
+  line-height: 1.5;
+}
+
+#line {
+  border-top: 1px solid rgb(222, 218, 218);
+}
+
+
+#lowerpart {
+  color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10vw;
+  gap: 270px;
+}
+
+#lowerpart h2 {
+  width: 30%;
+}
+
+#lowerright {
+  display: flex;
+  align-items: center;
+}
+
+#lowerright p {
+  display: inline-block;
+  margin-right: 22px;
+  font-size: 0.8rem;
+  font-weight: 100;
+  opacity: 0.7;
+  letter-spacing: 0.4;
+}
+
+#lowerright img {
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  filter: invert(1);
+  margin-right: 25px;
+}
+
+#lowerpart h2 {
+  position: relative;
+}
+
+#lowerpart h2::after {
+  content: "";
+  position: absolute;
+  left: 76%;
+  top: 65%;
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  background-color: springgreen;
+}
+
+#showing {
+  display: flex;
+  justify-content: center;
+  margin: 100px 0;
+  gap: 50px;
+}
+
+#showing img {
+  width: 550px;
+  height: 400px;
+  opacity: 0.9;
+  filter: saturate(100%) contrast(110%);
+}
+
+#showing .img1 {
+  transition: transform 1s ease;
+}
+
+#showing .img1:hover img {
+  transform: scale(1.0888);
+}
+
+#showing .img1 {
+  position: relative;
+}
+
+#showing .img1 .top-text {
+  position: absolute;
+  top: 7%;
+  left: 7%;
+  /* text-align: center; */
+  color: white;
+  /* Adjust text color as needed */
+  font-size: 24px;
+  /* Adjust font size as needed */
+  font-family: Arial, sans-serif;
+  /* Adjust font family as needed */
+  padding: 10px;
+  /* Adjust padding as needed */
+ 
+}
+
+#showing .img1 .bottom-text1,.bottom-text2 {
+  position: absolute;
+  bottom: 25%;
+  left: 7%;
+  width: 90%;
+  /* text-align: center; */
+  color: white;
+  /* Adjust text color as needed */
+  font-size: 32px;
+  /* Adjust font size as needed */
+  font-family: Arial, sans-serif;
+  /* Adjust font family as needed */
+  padding: 10px;
+  /* Adjust padding as needed */
+  color: #000;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+#showing .img1 .bottom-text2,a {
+  display: flex;
+  align-items: center;
+  left: 7%;
+  bottom: 11%;
+  font-size: 21px;
+  gap: 10px;
+}
+
+#showing .img1 .bottom-text2 a:first-child {
+  font-size: 15px;
+  padding: 5px 15px;
+  border-radius: 50px;
+  position: relative;
+  border: 1px solid #222;
+  overflow: hidden;
+  text-decoration: none;
+  color: rgb(241, 241, 241);
+}
+
+#showing .img1 .bottom-text2 a:first-child .green{
+  width: 100%;
+  height: 100%;
+  background-color: springgreen;
+  position: absolute;
+  left: -100%;
+  top: 0%;
+  transition: left 0.5s ease;
+}
+
+
+#showing .img1 .bottom-text2 a:first-child h4 {
+  position: relative;
+  z-index: 99;
+}
+
+#showing .img1 a:first-child:hover .green {
+  left: 0%;
+}
+
+
